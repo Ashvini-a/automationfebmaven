@@ -31,6 +31,7 @@ public class Logintest extends TestBase {
 	String actualResult=page.getTitle();
 	//Expected result
 	String expectedResult="Login";
+	System.out.println("");
 	//Assertion or matching actual with expected
 	Assert.assertEquals(actualResult, expectedResult);
 	}
