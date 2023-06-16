@@ -8,5 +8,6 @@ public class LeaveTest {
 	public void test()
 	{
 		System.out.println("Test1");
+		System.out.println("PASSED");
 	}
 }
