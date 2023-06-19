@@ -70,8 +70,8 @@ public class TestBase {
 		WebDriverWait wait= new WebDriverWait(driver,10);
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h5[contains(@class,'orangehrm-login-title')]")));
-	
 	}
+	
 	@AfterMethod
 	public void aftermethod(ITestResult result) {
 		
