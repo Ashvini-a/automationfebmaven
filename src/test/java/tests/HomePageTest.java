@@ -34,7 +34,11 @@ public class HomePageTest extends TestBase {
 		
 		HomePage hp = page.doLogin(prop.get("username1").toString(), prop.get("password").toString());
 		String actualHeader= hp.getHeader();
+<<<<<<< HEAD
 		System.out.println(" ");
+=======
+		System.out.println("");
+>>>>>>> main
 		log.info("Home page header Assertion");
 		log.info("Actual header : " +actualHeader);
 		log.info("Expected header : " +Constants.HOME_PAGE_HEADER);
