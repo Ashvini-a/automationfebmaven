@@ -14,7 +14,6 @@ public class Constants {
 	public static final String HOME_PAGE_HEADER="Dashboard";
 	public static final String USERNAME="Paul Collings";
 	public static List<String> HOME_PAGE_MENULIST = Arrays.asList(new String[]{"Admin","PIM","Leave","Time","Recruitment","My Info","Performance","Dashboard","Directory","Maintenance","Buzz"});
-	public static String c = "ABCD";
 }
 
 
