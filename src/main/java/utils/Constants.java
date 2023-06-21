@@ -16,3 +16,4 @@ public class Constants {
 	public static List<String> HOME_PAGE_MENULIST = Arrays.asList(new String[]{"Admin","PIM","Leave","Time","Recruitment","My Info","Performance","Dashboard","Directory","Maintenance","Buzz"});
 }
 
+
