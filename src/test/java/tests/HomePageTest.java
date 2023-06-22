@@ -37,6 +37,7 @@ public class HomePageTest extends TestBase {
 
 		System.out.println(" ");
 		System.out.println("");
+
 		log.info("Home page header Assertion");
 		log.info("Actual header : " +actualHeader);
 		log.info("Expected header : " +Constants.HOME_PAGE_HEADER);
