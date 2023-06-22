@@ -32,8 +32,12 @@ public class HomePageTest extends TestBase {
 //		HomePage hp = page.doLogin(credmap.get("Username"),credmap.get("Password"));
 		//To read the credentials from properties file
 		
-		HomePage hp = page.doLogin(prop.get("username1").toString(), prop.get("password").toString());
+		HomePage hp = page.doLogin(prop.get("username").toString(), prop.get("password").toString());
 		String actualHeader= hp.getHeader();
+
+		System.out.println(" ");
+		System.out.println("");
+
 		log.info("Home page header Assertion");
 		log.info("Actual header : " +actualHeader);
 		log.info("Expected header : " +Constants.HOME_PAGE_HEADER);
