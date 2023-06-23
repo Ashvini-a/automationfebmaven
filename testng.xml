@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite" parallel ="methods" thread-count ="2">
+=======
+<suite name="Suite" >
+>>>>>>> c86efab5172bb04406a7786a2933fd6e6dfe6f14
 <listeners>
 <listener class-name="listeners.TestNGListener"></listener>
 <listener class-name ="listeners.ExtentReportListener"></listener>
 </listeners>
-  <test name="chrome" >
+  <test name="chrome" parellel = "methods" thread-count ="2"> 
   <!-- <parameter name="browser" value="chrome"></parameter> -->
     <classes>
       <class name="tests.HomePageTest"/>
